@@ -55,8 +55,8 @@ colorarr=(230;230;230):(207;207;207):(184;184;184):(161;161;161):(138;138;138):(
                 if c != c2:
                     #t += str(c) + ' ' + str(c2) + ':' + i.upper() + '\n' #'1E-' + str(random.randint(0,10)) + '\n' # #i.upper() + '\n'
                     #if random.randint(0,2):
-                    rms = i
-                    dist = pv.get_p_value(rms, 1 * 38)[0] #r.get_rmsd_to(r2), 3)
+                    #rms = i
+                    dist = i
                     #print i, dist
                     t += str(c) + ' ' + str(c2) + ':' + str(dist) + '\n' # '1E-' + str(random.randint(0,15)) + '\n' # #i.upper() + '\n'
                 c2 += 1
